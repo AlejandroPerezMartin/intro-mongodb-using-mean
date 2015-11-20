@@ -1,0 +1,29 @@
+{
+  "name": "m101x-final-project",
+  "version": "1.0.0",
+  "description": "M101x Course Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroPerezMartin/intro-mongodb-using-mean.git"
+  },
+  "author": "Alejandro Perez Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlejandroPerezMartin/intro-mongodb-using-mean/issues"
+  },
+  "homepage": "https://github.com/AlejandroPerezMartin/intro-mongodb-using-mean#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "http-status": "^0.2.0",
+    "mongoose": "^4.2.6",
+    "wagner-core": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "superagent": "^1.4.0"
+  }
+}
