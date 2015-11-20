@@ -1,0 +1,19 @@
+{
+  "name": "m101x-chapter-3",
+  "version": "1.0.0",
+  "description": "M101x Course - Chapter 3",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "superagent": "^1.4.0"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "start": "node server.js"
+  },
+  "author": "Alejandro Perez Martin",
+  "license": "MIT"
+}
